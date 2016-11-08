@@ -1,0 +1,110 @@
+
+insert into course (course_id, tournament_id, course_name) values(538,'r047','TPC Summerlin');
+
+insert into hole (hole_num, course_id, hole_par, hole_length) values(1,538,4,408);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(2,538,4,469);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(3,538,4,492);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(4,538,4,450);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(5,538,3,197);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(6,538,4,430);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(7,538,4,382);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(8,538,3,239);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(9,538,5,563);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(10,538,4,420);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(11,538,4,448);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(12,538,4,442);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(13,538,5,606);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(14,538,3,156);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(15,538,4,341);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(16,538,5,560);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(17,538,3,196);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(18,538,4,444);
+update course set length = 7243, par = 71 where course_id = 538;
+
+insert into course (course_id, tournament_id, course_name) values(688,'r060','East Lake Golf Club');
+
+insert into hole (hole_num, course_id, hole_par, hole_length) values(1,688,4,424);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(2,688,3,214);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(3,688,4,390);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(4,688,4,440);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(5,688,4,520);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(6,688,3,209);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(7,688,4,434);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(8,688,4,405);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(9,688,5,600);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(10,688,4,469);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(11,688,3,197);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(12,688,4,391);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(13,688,4,476);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(14,688,4,442);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(15,688,5,525);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(16,688,4,481);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(17,688,4,455);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(18,688,3,235);
+update course set length = 7307, par = 70 where course_id = 688;
+
+insert into course (course_id, tournament_id, course_name) values(733,'r457','El Camaleon');
+
+insert into hole (hole_num, course_id, hole_par, hole_length) values(1,733,5,554);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(2,733,3,151);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(3,733,4,462);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(4,733,4,438);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(5,733,4,428);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(6,733,4,389);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(7,733,3,116);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(8,733,5,554);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(9,733,4,416);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(10,733,3,200);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(11,733,4,360);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(12,733,4,451);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(13,733,5,532);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(14,733,4,452);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(15,733,3,155);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(16,733,4,485);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(17,733,4,386);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(18,733,4,452);
+update course set length = 6981, par = 71 where course_id = 733;
+
+insert into course (course_id, tournament_id, course_name) values(775,'r464','CordeValle Golf Club');
+
+insert into hole (hole_num, course_id, hole_par, hole_length) values(1,775,4,422);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(2,775,4,434);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(3,775,3,230);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(4,775,4,418);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(5,775,4,454);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(6,775,4,480);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(7,775,3,166);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(8,775,4,478);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(9,775,5,555);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(10,775,4,425);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(11,775,3,236);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(12,775,5,605);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(13,775,4,418);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(14,775,4,497);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(15,775,5,568);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(16,775,3,210);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(17,775,4,358);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(18,775,4,425);
+update course set length = 7379, par = 71 where course_id = 775;
+
+insert into course (course_id, tournament_id, course_name) values(776,'r493','Seaside Course');
+
+insert into hole (hole_num, course_id, hole_par, hole_length) values(1,776,4,417);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(2,776,4,415);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(3,776,3,204);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(4,776,4,429);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(5,776,4,409);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(6,776,3,179);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(7,776,5,582);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(8,776,4,368);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(9,776,4,452);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(10,776,4,418);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(11,776,4,425);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(12,776,3,223);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(13,776,4,408);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(14,776,4,442);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(15,776,5,565);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(16,776,4,407);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(17,776,3,192);
+insert into hole (hole_num, course_id, hole_par, hole_length) values(18,776,4,470);
+update course set length = 7005, par = 70 where course_id = 776;
