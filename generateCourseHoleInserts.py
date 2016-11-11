@@ -22,13 +22,13 @@ def loadCourseAndHoles(file, tournament_id):
 		total_length += hole_length
 		course_par += hole_par
 	
-		out.write("insert into hole (hole_num, course_id, hole_par, hole_length) values(" + hole_num + "," + course_id + "," + str(hole_par) + "," + str(hole_length) + ");\n")
+		out.write("insert into hole values(" + hole_num + "," + course_id + "," + str(hole_par) + "," + str(hole_length) + ",0,0,0,0,0,0,0,0);\n")
 		
 	out.write("update course set length = " + str(total_length) + ", par = " + str(course_par) + " where course_id = " + course_id + ";\n")
 		
 
 for dir in glob.glob('*/'):
-	if(str(dir) != "script_generated\\"):
+	if(re.match('r[0-9]{3}', dir)):
 		file = open(dir + "course.json", 'r')
 		tournament_id = str(dir.replace("\\", ''))
 		

@@ -1,6 +1,7 @@
 import os
 import glob
 import json
+import re
 
 holeInserts = open("script_generated\\holeInserts.sql", 'w')
 
@@ -39,7 +40,7 @@ def gatherField(field, tournament_id):
 
 		
 for dir in glob.glob('*/'):
-	if(str(dir) != "script_generated\\"):
+	if(re.match('r[0-9]{3}', dir)):
 		tournament_id = dir.replace("\\", '')
 		#gatherField(dir + "field.json", tournament_id)
 		

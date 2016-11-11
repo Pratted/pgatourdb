@@ -17,4 +17,5 @@ for i in range(0, num_tournament):
 	start_date = str(data["schedule"][i]["start_date"])
 	end_date = str(data["schedule"][i]["end_date"])
 
-	tournamentInserts.write("insert into tournament (tournament_id, name, location, start_date, end_date, prev_winner) values('" + tournament_id + "','" + name + "','" + location + "','" + start_date + "','" + end_date + "','" + prev_winner + "');\n")
+	tournamentInserts.write("insert into tournament (tournament_id, name, location, start_date, end_date, prev_winner) values('"
+	+ tournament_id + "','" + name + "','" + location + "',TO_DATE('" + start_date + "', 'yyyy/mm/dd'),TO_DATE('" + end_date + "','yyyy/mm/dd'),'" + prev_winner + "');\n")
