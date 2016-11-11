@@ -1,6 +1,7 @@
 import os
 import glob
 import json
+import re
 
 out = open("script_generated\\course_insert.sql", 'w')
 
@@ -22,7 +23,7 @@ def loadCourseAndHoles(file, tournament_id):
 		total_length += hole_length
 		course_par += hole_par
 	
-		out.write("insert into hole values(" + hole_num + "," + course_id + "," + str(hole_par) + "," + str(hole_length) + ",0,0,0,0,0,0,0,0);\n")
+		out.write("insert into hole values(" + hole_num + "," + course_id + "," + str(hole_par) + "," + str(hole_length) + ",0,0,0,0,0,0,0,0,0);\n")
 		
 	out.write("update course set length = " + str(total_length) + ", par = " + str(course_par) + " where course_id = " + course_id + ";\n")
 		
